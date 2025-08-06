@@ -1,0 +1,15 @@
+{
+	"name": "ari/ari-db",
+	"description": "A simple PHP class for creating and managing SQLite databases.",
+	"require": {
+		"php": "^8.0"
+	},
+	"require-dev": {
+		"phpunit/phpunit": "^12.3"
+	},
+	"scripts": {
+		"test": [
+			"@php ./vendor/bin/phpunit tests/*.php"
+		]
+	}
+}
